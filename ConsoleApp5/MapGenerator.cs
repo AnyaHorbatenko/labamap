@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp5
+﻿namespace Kse.Algorithms.Samples
 {
     using System;
     using System.Collections.Generic;
