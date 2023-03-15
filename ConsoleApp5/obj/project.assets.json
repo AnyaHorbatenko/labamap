@@ -8,23 +8,26 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\1\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Ridermap\\ConsoleApp5\\ConsoleApp5\\ConsoleApp5.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\RiderProjects\\mYmAP\\labamap\\ConsoleApp5\\ConsoleApp5.csproj",
       "projectName": "ConsoleApp5",
-      "projectPath": "C:\\Users\\1\\Ridermap\\ConsoleApp5\\ConsoleApp5\\ConsoleApp5.csproj",
-      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Ridermap\\ConsoleApp5\\ConsoleApp5\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\RiderProjects\\mYmAP\\labamap\\ConsoleApp5\\ConsoleApp5.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\RiderProjects\\mYmAP\\labamap\\ConsoleApp5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
@@ -56,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
