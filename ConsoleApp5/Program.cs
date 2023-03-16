@@ -47,6 +47,13 @@ namespace ConsoleApp5
             List<Point> SearchNearbyPoints(string[,] localMap2, Point current)
             {
                 List<Point> available = new List<Point>();
+                if (current.Column - 1 >= 0 && current.Column - 1 <= globalWidth - 1 && current.Row <= globalWidth - 1)
+                {
+                    if (localMap2[current.Column - 1, current.Row] != "█")
+                    {
+                        available.Add(new Point(current.Column - 1, current.Row));
+                    }
+                }
             }
 
         }
