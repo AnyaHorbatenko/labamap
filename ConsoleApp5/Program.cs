@@ -54,6 +54,31 @@ namespace ConsoleApp5
                         available.Add(new Point(current.Column - 1, current.Row));
                     }
                 }
+
+                if (current.Column + 1 >= 0 && current.Column + 1 <= globalWidth - 1 && current.Row <= globalWidth - 1)
+                {
+                    if (localMap2[current.Column + 1, current.Row] != "█")
+                    {
+                        available.Add(new Point(current.Column + 1, current.Row));
+                    }
+                }
+
+                if (current.Row - 1 >= 0 && current.Row - 1 <= globalHeight - 1 && current.Column <= globalWidth - 1)
+                {
+                    if (localMap2[current.Column, current.Row - 1] != "█")
+                    {
+                        available.Add(new Point(current.Column, current.Row - 1));
+                    }
+                }
+
+                if (current.Row + 1 >= 0 && current.Row + 1 <= globalHeight - 1 && current.Column <= globalWidth - 1)
+                {
+                    if (localMap2[current.Column, current.Row + 1] != "█")
+                    {
+                        available.Add(new Point(current.Column, current.Row + 1));
+                    }
+                }
+                return available;
             }
 
         }
